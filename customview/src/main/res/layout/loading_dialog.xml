@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_loading_dialog"
+    android:gravity="center"
+    android:minWidth="100dp"
+    android:minHeight="100dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.lixin.customview.dialog.CircularRingView
+            android:layout_width="30dp"
+            android:id="@+id/circular_view"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/cc_loading_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="15dp"
+            android:ellipsize="end"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="正在加载"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            tools:text="加载中..."
+            tools:ignore="SpUsage" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

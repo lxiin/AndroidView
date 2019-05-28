@@ -1,0 +1,6 @@
+customview的Module中
+有两个View
+一个是LoadingDialog
+一个StateFrameLayout
+这两个都是同事写的我把它抽出来了
+方便后续再其他的项目中使用。

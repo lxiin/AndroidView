@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">customview</string>
+
+    <string name="viewstatusEmpty">什么也没有</string>
+    <string name="viewstatusError">出错了</string>
+    <string name="viewstatusNetError">网络错误,点击重试</string>
+    <string name="viewstatusLoading">加载中...</string>
+
+
+    <string name="view_state_loading_msg">加载中…</string>
+    <string name="view_state_empty_msg">没有内容 点击重试</string>
+    <string name="view_state_net_error_msg">网络错误 点击重试</string>
+    <string name="view_state_error_msg">出错了 点击重试</string>
+
+</resources>
