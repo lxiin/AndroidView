@@ -17,4 +17,18 @@
 
 
     </declare-styleable>
+
+    <!--折线图-->
+    <declare-styleable name="LineView">
+        <attr name="line_colors" format="color"/>
+        <attr name="line_Width" format="dimension"/>
+        <attr name="dot_Radius" format="dimension"/>
+        <attr name="xTextSize" format="dimension"/>
+        <attr name="yTextSize" format="dimension"/>
+        <attr name="xTextColor" format="color"/>
+        <attr name="yTextColor" format="color"/>
+        <attr name="dot_Width" format="dimension"/>
+
+    </declare-styleable>
+
 </resources>

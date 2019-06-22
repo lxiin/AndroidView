@@ -1,6 +1,7 @@
 package com.lixin.androidview;
 
 import android.os.Handler;
+import android.support.annotation.MainThread;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -35,20 +36,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showViewState() {
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                if (i == 0){
-                    stateFrameLayout.showErrorView();
-                }else if (i == 1){
-                    stateFrameLayout.showNetErrorView();
-                }else if (i == 2){
-                    stateFrameLayout.showEmptyView();
-                }else{
-                    stateFrameLayout.showContentView();
-                }
-            }
-        },800);
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                if (i == 0){
+//                    stateFrameLayout.showErrorView();
+//                }else if (i == 1){
+//                    stateFrameLayout.showNetErrorView();
+//                }else if (i == 2){
+//                    stateFrameLayout.showEmptyView();
+//                }else{
+//                    stateFrameLayout.showContentView();
+//                }
+//            }
+//        },800);
+        stateFrameLayout.showContentView();
     }
 
 
@@ -61,4 +63,9 @@ public class MainActivity extends AppCompatActivity {
             }
         },1500);
     }
+
+    public void showLineViewClick(View view){
+        LineViewActivity.start(MainActivity.this);
+    }
+
 }

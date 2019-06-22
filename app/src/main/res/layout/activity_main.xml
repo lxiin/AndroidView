@@ -24,6 +24,13 @@
              android:onClick="showLoadingClick"
              />
 
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="显示折线图"
+             android:onClick="showLineViewClick"
+             />
+
       </LinearLayout>
 
    </com.lixin.customview.statelayout.StateFrameLayout>

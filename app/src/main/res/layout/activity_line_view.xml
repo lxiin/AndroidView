@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.lixin.customview.LineView
+        android:id="@+id/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#f4f4f4"
+        app:line_colors="#297be8"
+        app:line_Width="2dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        app:xTextColor="#A3C4EF"
+        app:yTextSize="9sp"
+        app:xTextSize="11sp"
+        app:yTextColor="#999999"
+        android:paddingRight="15dp" />
+
+</LinearLayout>
