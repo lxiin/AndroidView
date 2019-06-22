@@ -6,4 +6,5 @@ customview的Module中
 方便后续再其他的项目中使用。
 
 新增了折线图 如下图所示：
-![image]{https://github.com/lxiin/AndroidView/blob/master/images/line_view.png}
+![Image text](https://github.com/lxiin/AndroidView/blob/master/images/line_view.png)
+
