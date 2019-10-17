@@ -12,6 +12,8 @@ import com.lixin.customview.statelayout.StateFrameLayout;
 public class MainActivity extends AppCompatActivity {
 
 
+
+    //1
     StateFrameLayout stateFrameLayout;
 
     int i = 0;
